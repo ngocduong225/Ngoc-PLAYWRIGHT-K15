@@ -12,7 +12,7 @@ let w = Number(read_line.question('Your Weight(kg): '));
 const BMI = (w/(h**2)).toFixed(2);
 console.log(`Your BMI: ${BMI}`);
 
-if(BMI <= 18.5){
+if(BMI < 18.5){
     console.log(`Underweight!`);
 } else if (BMI <= 24.9){
     console.log(`Normal weight!`);
