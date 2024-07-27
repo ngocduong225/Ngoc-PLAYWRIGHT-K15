@@ -31,3 +31,5 @@ for (; j < array2.length; j++) {
 
 console.log(mergedArray);
 
+// Multi dimension array in JS
+
